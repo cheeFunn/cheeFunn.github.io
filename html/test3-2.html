@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我要评价</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <div class="header">
+        <a href="index.html" class="logo">
+            <h1>美食点评网站</h1>
+
+        </a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="test3-2.html">我要评价</a></li>
+                <li><a href="test3-3.html">美食分类</a>
+                    <ul class="hide">
+                        <li><a href="test3-3-1.html">中餐</a></li>
+                        <li><a href="test3-3-2.html">异国料理</a></li>
+                        <li><a href="test3-3-3.html">小吃快餐</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <h1>我的评价</h1>
+        <br>
+
+        <h2>就餐类型</h2>
+        <select name="range">
+        <option value="chinese">中餐</option>
+        <option value="forei">异国料理</option>
+        <option value="fastfood">小吃快餐</option>
+        </select>
+        <br><br>
+
+        <form action=" ">
+            <h2>人均消费：</h2>
+            ￥<input type="number" class= ''name="points" width="10px" 
+             min="0" max="2000" step="1" value="50">
+        </form>
+        <br>
+
+        <form action=" ">
+        <h2>美食特色:</h2><br>
+        <input type="checkbox" name="vehicle" value="popular">人气爆棚
+        <br>
+        <input type="checkbox" name="vehicle" value="trend">打卡圣地
+        <br>
+        <input type="checkbox" name="vehicle" value="cheap">物美价廉
+        <br>
+        <input type="checkbox" name="vehicle" value="servi">服务满分
+        <br>
+        <input type="checkbox" name="vehicle" value="back">再吃亿次
+        <br>
+        <input type="checkbox" name="vehicle" value="chara">特色鲜明
+        </form>
+        <br>
+
+        <h2>评分：</h2>
+        <form>
+            <input type="radio" name="quality" value="5" checked>5分
+            
+            <input type="radio" name="quality" value="4">4分
+            
+            <input type="radio" name="quality" value="3">3分
+            
+            <input type="radio" name="quality" value="2">2分
+            
+            <input type="radio" name="quality" value="1">1分
+        </form> 
+
+        <br>
+        <h2>我的评价：</h2>
+        <br>
+        <input type="textCommentTitle" placeholder="请输入标题" rows="2">
+        <br><br>
+        <textarea class='textComment'  rows="10" cols="100" placeholder="在此填写你的评价">
+        </textarea>
+        <br><br>
+        
+        
+        <button class="button" onclick="alert('评价提交成功')">提交</button>
+
+        
+    </div>
+</body>
+</html>
