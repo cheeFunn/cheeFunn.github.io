@@ -16,12 +16,12 @@
         <nav class="navbar">
             <ul>
                 <li><a href="../index.html">首页</a></li>
-                <li><a href="./html/test3-2.html">我要评价</a></li>
-                <li><a href="test3-3.html">美食分类</a>
+                <li><a href="comment.html">我要评价</a></li>
+                <li><a href="group.html">美食分类</a>
                     <ul class="hide">
-                        <li><a href="test3-3-1.html">中餐</a></li>
-                        <li><a href="test3-3-2.html">异国料理</a></li>
-                        <li><a href="test3-3-3.html">小吃快餐</a></li>
+                        <li><a href="chinese.html">中餐</a></li>
+                        <li><a href="foreign.html">异国料理</a></li>
+                        <li><a href="snack.html">小吃快餐</a></li>
                     </ul>
                 </li>
             </ul>
@@ -34,6 +34,35 @@
             <h1>
                 杭州美食 热门选择：
             </h1>
+            <div class="nav-content">
+				<!-- 幻灯片 -->
+				<div class="slide">
+                        <div id="London" class="tabcontent">
+                        <h3>London</h3>
+                        <p>London is the capital city of England.</p>
+                        </div>
+
+                        <div id="Paris" class="tabcontent">
+                        <h3>Paris</h3>
+                        <p>Paris is the capital of France.</p> 
+                        </div>
+
+                        <div id="Tokyo" class="tabcontent">
+                        <h3>Tokyo</h3>
+                        <p>Tokyo is the capital of Japan.</p>
+                        </div>
+
+                        <div id="Oslo" class="tabcontent">
+                        <h3>Oslo</h3>
+                        <p>Oslo is the capital of Norway.</p>
+                        </div>
+
+                        <button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">London</button>
+                        <button class="tablink" onclick="openCity('Paris', this, 'green')">Paris</button>
+                        <button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
+                        <button class="tablink" onclick="openCity('Oslo', this, 'orange')">Oslo</button>
+			    </div>
+            </div>
             <ul class="list">
                 <li>
 
@@ -44,7 +73,7 @@
                     <p class="price">人均39¥</p>
                 </li>
                 <li>
-                    <img src="./html/img/1.png" alt="">
+                    <img src="https://github.com/cheeFunn/cheeFunn.github.io/blob/master/./html/img/1.png" alt="">
                     <p class="title">吃饭皇帝大</p>
                     <p class="smalltitle">人气爆棚的湘西土家菜</p>
                     <p class="price">人均80¥</p>
@@ -92,11 +121,8 @@
    
     </div>
 
-    
-    
-    <script>
-    
+    <script src="js/jquery.js"></script>
        
-    </script>
+    
 </body>
 </html>
